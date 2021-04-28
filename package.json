@@ -1,0 +1,33 @@
+{
+  "name": "lv-stock-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2-runtime start ecosystem.config.js --env production && pm2 logs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kadynm49/lv-stock-monitor.git"
+  },
+  "keywords": [],
+  "author": "Kadyn Marshall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kadynm49/lv-stock-monitor/issues"
+  },
+  "homepage": "https://github.com/Kadynm49/lv-stock-monitor#readme",
+  "engines": {
+    "node": "10.16.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "heroku-client": "^3.1.0",
+    "mongodb": "^3.5.9",
+    "nodemailer": "^6.4.10",
+    "nodemailer-sendinblue-transport": "^1.2.3",
+    "pm2": "^4.4.0",
+    "puppeteer": "^4.0.1"
+  }
+}
