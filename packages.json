@@ -243,7 +243,7 @@
       "requires": {
         "amp": "0.3.1"
       }
-    }
+    },
     "ansi-styles": {
       "version": "4.2.1",
       "resolved": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.2.1.tgz",
@@ -655,6 +655,11 @@
       "version": "0.0.1",
       "resolved": "https://registry.npmjs.org/escape-regexp/-/escape-regexp-0.0.1.tgz",
       "integrity": "sha1-9EvaEtRbvfnLf4Yu5+SCez3TIlQ="
+    },
+    "escape-html": {
+      "version": "1.0.3",
+      "resolved": "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz",
+      "integrity": "sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg="
     },
     "escodegen": {
       "version": "1.16.1",
