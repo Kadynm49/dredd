@@ -23,7 +23,7 @@ module.exports = {
       host : 'SSH_HOSTMACHINE',
       ref  : 'origin/master',
       repo : 'GIT_REPOSITORY',
-      path : 'DESTINATION_PATH',
+      path : 'DESTINATION_PATH_EXT',
       'pre-deploy-local': '',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production',
       'pre-setup': ''
