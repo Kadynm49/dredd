@@ -253,6 +253,15 @@
         "picomatch": "^2.0.4"
       }
     },
+    "ansi-styles": {
+      "version": "4.2.1",
+      "resolved": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.2.1.tgz",
+      "integrity": "sha512-9VGjrMsG1vePxcSweQsN20KY/c4zN0h9fLjqAbwbPfahM3t+NL+M9HC8xeXG2I8pX5NoamTGNuomEUFI7fcUjA==",
+      "requires": {
+        "@types/color-name": "^1.1.1",
+        "color-convert": "^2.0.1"
+      }
+    }
     "argparse": {
       "version": "1.0.10",
       "resolved": "https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz",
