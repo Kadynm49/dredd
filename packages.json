@@ -662,7 +662,7 @@
       "integrity": "sha1-9EvaEtRbvfnLf4Yu5+SCez3TIlQ="
     },
     "escodegen": {
-      "version": "1.16.1",
+      "version": "1.14.3",
       "resolved": "https://registry.npmjs.org/escodegen/-/escodegen-1.14.3.tgz",
       "integrity": "sha512-qFcX0XJkdg+PB3xjZZG/wKSuT1PnQWx57+TVSjIMmILd2yC/6ByYElPwJnslDsuWuSAp4AwJGumarAAmJch5Kw==",
       "requires": {
