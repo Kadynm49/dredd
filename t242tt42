@@ -1,3 +1,4 @@
-t224
+100% (3/3), 408 bytes | 408.00 KiB/s, done.
 
-this change exists locally and remotely
+force push more!
+curl -X DELETE -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/kadynm49/dredd/pulls/comments/645896888
