@@ -9,7 +9,7 @@ const heroku = new Heroku({ token: process.env.HEROKU_API_TOKEN })
 
 const MongoClient = require('mongodb').MongoClient;
 const uri = "mongodb+srv://kadyn:YMZM6XxZAft5QHg@kadyndb.b7mcv.azure.mongodb.net/KadynDB?retryWrites=true&w=majority";
-
+// change it up
 async function checkInStock(url, collection) {
     try {
         const browser = await puppeteer.launch({headless: true, args: ['--no-sandbox']});
